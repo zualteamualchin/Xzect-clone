@@ -1,0 +1,240 @@
+.container{
+    background-color: rgb(244, 244, 244);
+}
+@media only screen and (min-width:1024px) {
+    
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    height: max-content;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 3rem; */
+}
+.wrapper {
+    display: flex;
+    width: 80vw;
+    height: 100%;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+
+.courseConclusion{
+    width: 36vw;
+    height: 100%;
+    /* border: 1px solid black; */
+} 
+.courses{ 
+    width: 24vw;
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+}
+.courses h3, .about h3{
+    font-size: 1.2rem;
+}
+.about{
+    width: 14vw;
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+}
+.courseConclusion p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.logoWrapper{
+    width: 28vw;
+    height: 10vh;
+}
+.courses ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+.about ul{  
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.courses a,.about a{
+    border: none;
+    text-decoration: none;
+    color: #454545;
+    font-size: 1rem;
+}
+.courses a:hover,.about a:hover{
+    text-decoration: underline;
+}
+}
+@media only screen and (max-width:1024px) {
+    
+    .container{
+        width: 100%;
+        box-sizing: border-box;
+        height: max-content;
+        /* border: 1px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-bottom: 3rem; */
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+    .wrapper {
+        display: flex;
+        width: 85%;
+        height: 100%;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        justify-content: space-between;
+    }
+    
+    .courseConclusion{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid black; */
+    } 
+    .courseConclusion h3{
+        font-size: 16.5px;
+    }
+    .courses{ 
+        width: 100%;
+        margin-top: 1rem;
+        /* border: 1px solid black; */
+    }
+    .courses h3, .about h3{
+        font-size: 1.2rem;
+    }
+    .about{
+        width: 100%;
+        margin-top: 1rem;
+        /* border: 1px solid black; */
+    }
+    .courseConclusion p{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .logoWrapper{
+        width: 200px;
+        height: 75px;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+    .courses ul{
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-top: 2rem;
+    }
+    .about ul{  
+        list-style: none;
+        padding: 0%;
+        margin: 0%;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .courses a, .about a{
+        text-decoration: none;
+        color: #454545;
+        font-size: 15.5px;
+    }
+    .courses a:hover,.about a:hover{
+        text-decoration: underline;
+    }
+    }
+@media only screen and (max-width:768px) {
+    
+.container{
+    width: 100%;
+    box-sizing: border-box;
+    height: max-content;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 3rem; */
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.wrapper {
+    display: flex;
+    width: 85%;
+    height: 100%;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+
+.courseConclusion{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+} 
+.courseConclusion h3{
+    font-size: 16.5px;
+}
+.courses{ 
+    width: 100%;
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+}
+.courses h3, .about h3{
+    font-size: 1.2rem;
+}
+.about{
+    width: 100%;
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+}
+.courseConclusion p{
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.logoWrapper{
+    width: 200px;
+    height: 75px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+.courses ul{
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 2rem;
+}
+.about ul{  
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.courses a, .about a{
+    text-decoration: none;
+    color: #454545;
+    font-size: 15.5px;
+    border: none;
+}
+.courses a:hover,.about a:hover{
+    text-decoration: underline;
+}
+}

@@ -1,0 +1,300 @@
+@media only screen and (max-width:768px) {
+    .courseContentLast {
+        padding: 0%;
+        object-fit: contain;
+        margin-bottom: 2rem;
+    }
+    .show {
+        /* max-height: 20rem; */
+        height: max-content;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in;
+        border : 0.1px solid #cdcdcd;
+        display: flex;
+        flex-direction: column;
+        /* padding-bottom: 1rem;  */
+    }
+    .dropdown {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        justify-content: space-between;
+        padding-right: 1rem;
+    }
+    .dropdown div{
+        display: flex;
+        align-items: center;
+    }
+    .dropdown a{
+        text-decoration: none;
+        padding-left: 1rem;
+        font-size: 17px;
+        color: rgb(68, 68, 68);
+        border:none;
+        width: 250px;
+    }
+    .dropdown:hover{
+        background-color: antiquewhite;
+        transition: 0.5s;
+    }
+    .hide {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-in;
+        border : 0.1px solid #cdcdcd;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .passivedropper {
+        height: 70px;
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        cursor: pointer;
+        border : 0.1px solid #cdcdcd;
+        border-bottom: none ;
+        background-color: #fcfcfd;
+        transition: 1s;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+    .activedropper {
+        height: 70px;
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        transition: 0.5s;
+        cursor: pointer;
+        border : 0.1px solid #cdcdcd;
+        border-bottom: none ;
+        background-color: #f1f1f1;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: rgb(63, 95, 210);
+    }
+    .activedropper:hover, .passivedropper:hover {
+        cursor: pointer;
+        transition: 0ms;
+    }
+    .dropper p{
+        font-size: x-large;
+        font-weight: 500;
+    }
+    .turnoff {
+        transform: rotate(90deg);
+        transition: 0.5s;
+        color: rgb(59, 72, 69);
+    }
+    .turnon{
+        transition: 0.5s;
+        color: rgb(18, 22, 21); 
+    }    
+}
+@media only screen and (min-width:1024px) {
+    .courseContentLast {
+        padding: 0%;
+        object-fit: contain;
+        margin-bottom: 2rem;
+    }
+    
+    .show {
+        /* max-height: 20rem; */
+        height: max-content;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in;
+        border : 0.1px solid #cdcdcd;
+        display: flex;
+        flex-direction: column;
+        /* padding-bottom: 1rem;  */
+    }
+    .dropdown {
+        height: 7vh;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        justify-content: space-between;
+        padding-right: 1rem;
+    }
+    .dropdown div{
+        display: flex;
+        align-items: center;
+    }
+    .dropdown a{
+        text-decoration: none;
+        padding-left: 1rem;
+        font-size: large;
+        color: rgb(68, 68, 68);
+    }
+    .dropdown:hover{
+        background-color: antiquewhite;
+        transition: 0.5s;
+    }
+    .hide {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-in;
+        border : 0.1px solid #cdcdcd;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .passivedropper {
+        height: 7vh;
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        cursor: pointer;
+        border : 0.1px solid #cdcdcd;
+        border-bottom: none ;
+        background-color: #fcfcfd;
+        transition: 1s;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+    .activedropper {
+        height: 7vh;
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        transition: 0.5s;
+        cursor: pointer;
+        border : 0.1px solid #cdcdcd;
+        border-bottom: none ;
+        background-color: #f1f1f1;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: rgb(63, 95, 210);
+    }
+    .activedropper:hover, .passivedropper:hover {
+        cursor: pointer;
+        color: rgb(63, 95, 210);
+        transition: 0ms;
+    }
+    .dropper p{
+        font-size: x-large;
+        font-weight: 500;
+    }
+    .turnoff {
+        transform: rotate(90deg);
+        transition: 0.5s;
+        color: rgb(59, 72, 69);
+    }
+    .turnon{
+        transition: 0.5s;
+        color: rgb(18, 22, 21);
+        
+    }
+}
+@media only screen and (max-width:1024px) {
+    .courseContentLast {
+        padding: 0%;
+        object-fit: contain;
+        margin-bottom: 2rem;
+    }
+    .show {
+        /* max-height: 20rem; */
+        height: max-content;
+        overflow: hidden;
+        transition: max-height 0.5s ease-in;
+        border : 0.1px solid #cdcdcd;
+        display: flex;
+        flex-direction: column;
+        /* padding-bottom: 1rem;  */
+    }
+    .dropdown {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        justify-content: space-between;
+        padding-right: 1rem;
+    }
+    .dropdown div{
+        display: flex;
+        align-items: center;
+    }
+    .dropdown a{
+        text-decoration: none;
+        padding-left: 1rem;
+        font-size: 17px;
+        color: rgb(68, 68, 68);
+        width: 250px;
+    }
+    .dropdown:hover{
+        background-color: antiquewhite;
+        transition: 0.5s;
+    }
+    .hide {
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.5s ease-in;
+        border : 0.1px solid #cdcdcd;
+        border-top: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .passivedropper {
+        height: 70px;
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        cursor: pointer;
+        border : 0.1px solid #cdcdcd;
+        border-bottom: none ;
+        background-color: #fcfcfd;
+        transition: 1s;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+    .activedropper {
+        height: 70px;
+        margin: 0%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        transition: 0.5s;
+        cursor: pointer;
+        border : 0.1px solid #cdcdcd;
+        border-bottom: none ;
+        background-color: #f1f1f1;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: rgb(63, 95, 210);
+    }
+    .activedropper:hover, .passivedropper:hover {
+        cursor: pointer;
+        transition: 0ms;
+    }
+    .dropper p{
+        font-size: x-large;
+        font-weight: 500;
+    }
+    .turnoff {
+        transform: rotate(90deg);
+        transition: 0.5s;
+        color: rgb(59, 72, 69);
+    }
+    .turnon{
+        transition: 0.5s;
+        color: rgb(18, 22, 21); 
+    }    
+}

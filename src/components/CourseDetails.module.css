@@ -1,0 +1,756 @@
+@media only screen and (min-width:1024px){
+    .container {
+        max-width: 90vw;
+        width: 90vw;
+        /* border: 0.01px solid rgb(227, 219, 219); */
+        margin: auto;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-between; 
+        /* height: 250vh;  */
+        max-height: max-content;  
+        margin-bottom: 2rem;
+    }
+    .courseContent{
+        width: 60vw;
+        border: 1px solid rgb(227, 219, 219);
+        height: max-content;
+        /* position: relative; */
+    }
+    
+    .pricing {
+        margin-top:-3px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .addtocart {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        position: relative;
+        justify-content: center;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 1px solid rgb(227, 219, 219);
+    }
+    .addtocart h1{
+        margin-top: 0%;
+        /* border: 0.1px solid black; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .addtocart button{
+        align-self: center;
+        margin-top: 0%;
+        width: 27vw;
+        height: 5.5vh;
+        background-color: #3e64de;
+        border-color: #3e64de;
+        border-radius: 5px;
+        border-style: none;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .level{
+        height: 20vh;
+        /* border: 0.1px solid black;   */
+        padding-left: 2rem; 
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top: none;
+        border: 1px solid rgb(227, 219, 219);
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .level div{
+        display: flex;
+        height: 23%;
+        box-sizing: border-box;
+        align-items: center;
+        gap: 0.7rem;
+        /* border: 1px solid; */
+        
+    }
+    .level h3{
+        font-weight: 100;
+        font-size: medium;
+    }
+    
+    .CourseMain{
+        margin-bottom: 5rem;
+        width: 55vw;
+        margin:auto
+    }
+    .CourseMain p{
+        line-height: 2rem;
+    }
+    .courseContentHead {
+        margin: 0%;
+    }
+    .courseContentHead{
+    
+    }
+    .courseContentMid {
+      
+    }
+    .ListofTech {
+      display: flex;
+      justify-content: space-between;
+    }
+    .ListofTech ul{    
+        margin: 0%;
+        padding: 2%;
+        line-height: 2.5rem;
+    }
+    
+    /* RIGHT HANDSIDE CONTENT */
+    .sideDetails{
+        width: 27vw;
+        border: 1px solid rgb(227, 219, 219);
+        height: max-content;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .introduction {
+      display: flex;
+      border-bottom: 1px solid rgb(207, 207, 207);
+      justify-content: center;
+      flex-direction: column;
+      height: max-content;
+      padding-left: 2rem;
+    }
+    .introduction img{
+        height: 100%;
+        border-radius: 50%;
+    }
+    .subIntroLogo{
+        display: flex;
+        align-items: center;
+        height: 6vh;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .courseSuitable{
+        padding-left: 2rem;
+    }
+    .courseSuitable li{
+        line-height: 2.3rem;
+    }
+    .courseSuitable ul{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 1rem;
+    }
+    .courseSuitable h2{
+        font-size: larger;
+    }
+    .courseTagWrapper{
+        padding-left: 2rem;
+    }
+    .courseTags {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .courseTags button{
+        border: 0.1px solid  rgb(207, 207, 207);
+        border-radius: 6px;
+        width: max-content;
+        height: 2.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: medium;
+        background-color: white;
+        cursor: pointer;
+    }
+    .courseTags button:hover{
+        border: 0.1px solid  rgb(68, 136, 173);
+        color: rgb(68, 136, 173);
+    }
+    .courseTags div{
+      display: flex;
+      gap: 1rem;
+    }    
+}
+@media only screen and (min-width:992px) and (max-width:1024px){
+    .container {
+        max-width: 90vw;
+        width: 90vw;
+        /* border: 0.01px solid rgb(227, 219, 219); */
+        margin: auto;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: space-between; 
+        /* height: 250vh;  */
+        max-height: max-content;  
+        margin-bottom: 2rem;
+    }
+    .courseContent{
+        width: 60vw;
+        border: 1px solid rgb(227, 219, 219);
+        height: max-content;
+        /* position: relative; */
+    }
+    
+    .pricing {
+        margin-top:-3px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .addtocart {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        position: relative;
+        justify-content: center;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 1px solid rgb(227, 219, 219);
+    }
+    .addtocart h1{
+        margin-top: 0%;
+        /* border: 0.1px solid black; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .addtocart button{
+        align-self: center;
+        margin-top: 0%;
+        width: 27vw;
+        height: 5.5vh;
+        background-color: #3e64de;
+        border-color: #3e64de;
+        border-radius: 5px;
+        border-style: none;
+        color: white;
+        font-size: 1.2rem;
+    }
+    .level{
+        height: 20vh;
+        /* border: 0.1px solid black;   */
+        padding-left: 2rem; 
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top: none;
+        border: 1px solid rgb(227, 219, 219);
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .level div{
+        display: flex;
+        height: 23%;
+        box-sizing: border-box;
+        align-items: center;
+        gap: 0.7rem;
+        /* border: 1px solid; */
+        
+    }
+    .level h3{
+        font-weight: 100;
+        font-size: medium;
+    }
+    
+    .CourseMain{
+        margin-bottom: 5rem;
+        width: 55vw;
+        margin:auto
+    }
+    .CourseMain p{
+        line-height: 2rem;
+    }
+    .courseContentHead {
+        margin: 0%;
+    }
+    .courseContentHead{
+    
+    }
+    .courseContentMid {
+      
+    }
+    .ListofTech {
+      display: flex;
+      justify-content: space-between;
+    }
+    .ListofTech ul{    
+        margin: 0%;
+        padding: 2%;
+        line-height: 2.5rem;
+    }
+    
+    /* RIGHT HANDSIDE CONTENT */
+    .sideDetails{
+        width: 27vw;
+        border: 1px solid rgb(227, 219, 219);
+        height: max-content;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .introduction {
+      display: flex;
+      border-bottom: 1px solid rgb(207, 207, 207);
+      justify-content: center;
+      flex-direction: column;
+      height: max-content;
+      padding-left: 2rem;
+    }
+    .introduction img{
+        height: 100%;
+        border-radius: 50%;
+    }
+    .subIntroLogo{
+        display: flex;
+        align-items: center;
+        height: 6vh;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .courseSuitable{
+        padding-left: 2rem;
+    }
+    .courseSuitable li{
+        line-height: 2.3rem;
+    }
+    .courseSuitable ul{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 1rem;
+    }
+    .courseSuitable h2{
+        font-size: larger;
+    }
+    .courseTagWrapper{
+        padding-left: 2rem;
+    }
+    .courseTags {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .courseTags button{
+        border: 0.1px solid  rgb(207, 207, 207);
+        border-radius: 6px;
+        width: max-content;
+        height: 2.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: medium;
+        background-color: white;
+        cursor: pointer;
+    }
+    .courseTags button:hover{
+        border: 0.1px solid  rgb(68, 136, 173);
+        color: rgb(68, 136, 173);
+    }
+    .courseTags div{
+      display: flex;
+      gap: 1rem;
+    }    
+}
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .container {
+        
+        width: 100%;
+        box-sizing: border-box;
+        /* border: 0.01px solid rgb(227, 219, 219); */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        /* height: 250vh;  */
+        max-height: max-content;  
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+    .courseContent{
+        width: 100%;
+        /* border: 1px solid rgb(227, 219, 219); */
+        height: max-content;
+        /* position: relative; */
+    }
+    
+    .pricing {
+        margin-top:-3px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .addtocart {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        position: relative;
+        justify-content: center;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 1px solid rgb(227, 219, 219);
+    }
+    .addtocart h1{
+        margin-top: 0%;
+        /* border: 0.1px solid black; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1.3rem;
+    }
+    .addtocart span{
+        font-size: 0.9rem;
+    }
+    .addtocart button{
+        align-self: center;
+        margin-top: 0%;
+        width: 300px;
+        height: 45px;
+        background-color: #3e64de;
+        border-color: #3e64de;
+        border-radius: 5px;
+        border-style: none;
+        color: white;
+        font-size: 1.1rem;
+    }
+    .level{
+        height: 20vh;
+        /* border: 0.1px solid black;   */
+        padding-left: 2rem; 
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top: none;
+        border: 1px solid rgb(227, 219, 219);
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .level div{
+        display: flex;
+        height: 23%;
+        box-sizing: border-box;
+        align-items: center;
+        gap: 0.7rem;
+        /* border: 1px solid; */
+        
+    }
+    .level h3{
+        font-weight: 100;
+        font-size: medium;
+    }
+    
+    .CourseMain{
+        /* border: 1px solid black; */
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin:auto;
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+        text-align: start;
+    }
+    .CourseMain h1{
+        font-size: 1.9rem;
+    }
+    .CourseMain p{
+        line-height: 2rem;
+        font-size: 16px;
+    }
+    .courseContentHead {
+        margin: 0%;
+    }
+    .ListofTech {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .ListofTech ul{    
+        margin: 0%;
+        padding: 0%;
+        padding-left: 1rem;
+        line-height: 2.5rem;
+        margin-top: -0.1rem;
+    }
+    
+    /* RIGHT HANDSIDE CONTENT */
+    .sideDetails{
+        width: 90%;
+        box-sizing: border-box;
+        border: 1px solid rgb(227, 219, 219);
+        height: max-content;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin:auto;
+        padding-right: 1rem;
+    }
+    .introduction {
+      display: flex;
+      border-bottom: 1px solid rgb(207, 207, 207);
+      justify-content: center;
+      flex-direction: column;
+      height: max-content;
+      padding-left: 2rem;
+    }
+    .introduction img{
+        height: 100%;
+        border-radius: 50%;
+    }
+    .subIntroLogo{
+        display: flex;
+        align-items: center;
+        height: 6vh;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .courseSuitable{
+        padding-left: 2rem;
+    }
+    .courseSuitable li{
+        line-height: 2.3rem;
+    }
+    .courseSuitable ul{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 1rem;
+    }
+    .courseSuitable h2{
+        font-size: larger;
+    }
+    .courseTagWrapper{
+        padding-left: 2rem;
+    }
+    .courseTags {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .courseTags button{
+        border: 0.1px solid  rgb(207, 207, 207);
+        border-radius: 6px;
+        width: max-content;
+        height: 2.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: medium;
+        background-color: white;
+        cursor: pointer;
+    }
+    .courseTags button:hover{
+        border: 0.1px solid  rgb(68, 136, 173);
+        color: rgb(68, 136, 173);
+    }
+    .courseTags div{
+      display: flex;
+      gap: 1rem;
+    }
+}
+@media only screen and (max-width:768px) {
+    .container {
+        
+        width: 100%;
+        box-sizing: border-box;
+        /* border: 0.01px solid rgb(227, 219, 219); */
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; 
+        /* height: 250vh;  */
+        max-height: max-content;  
+        margin-bottom: 2rem;
+        margin-top: 1.5rem;
+    }
+    .courseContent{
+        width: 100%;
+        /* border: 1px solid rgb(227, 219, 219); */
+        height: max-content;
+        /* position: relative; */
+    }
+    
+    .pricing {
+        margin-top:-3px;
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .addtocart {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        position: relative;
+        justify-content: center;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border: 1px solid rgb(227, 219, 219);
+    }
+    .addtocart h1{
+        margin-top: 0%;
+        /* border: 0.1px solid black; */
+        margin-left: 2rem;
+        margin-right: 2rem;
+        font-size: 1.3rem;
+    }
+    .addtocart span{
+        font-size: 0.9rem;
+    }
+    .addtocart button{
+        align-self: center;
+        margin-top: 0%;
+        width: 300px;
+        height: 45px;
+        background-color: #3e64de;
+        border-color: #3e64de;
+        border-radius: 5px;
+        border-style: none;
+        color: white;
+        font-size: 1.1rem;
+    }
+    .level{
+        height: 20vh;
+        /* border: 0.1px solid black;   */
+        padding-left: 2rem; 
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        border-top: none;
+        border: 1px solid rgb(227, 219, 219);
+        /* align-items: center; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .level div{
+        display: flex;
+        height: 23%;
+        box-sizing: border-box;
+        align-items: center;
+        gap: 0.7rem;
+        /* border: 1px solid; */
+        
+    }
+    .level h3{
+        font-weight: 100;
+        font-size: medium;
+    }
+    
+    .CourseMain{
+        /* border: 1px solid black; */
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin:auto;
+        margin-bottom: 5rem;
+        margin-top: 2rem;
+        text-align: start;
+    }
+    .CourseMain h1{
+        font-size: 1.9rem;
+    }
+    .CourseMain p{
+        line-height: 2rem;
+        font-size: 16px;
+    }
+    .courseContentHead {
+        margin: 0%;
+    }
+    .ListofTech {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .ListofTech ul{    
+        margin: 0%;
+        padding: 0%;
+        padding-left: 1rem;
+        line-height: 2.5rem;
+        margin-top: -0.1rem;
+    }
+    
+    /* RIGHT HANDSIDE CONTENT */
+    .sideDetails{
+        width: 90%;
+        box-sizing: border-box;
+        border: 1px solid rgb(227, 219, 219);
+        height: max-content;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin:auto;
+        padding-right: 1rem;
+    }
+    .introduction {
+      display: flex;
+      border-bottom: 1px solid rgb(207, 207, 207);
+      justify-content: center;
+      flex-direction: column;
+      height: max-content;
+      padding-left: 2rem;
+    }
+    .introduction img{
+        height: 100%;
+        border-radius: 50%;
+    }
+    .subIntroLogo{
+        display: flex;
+        align-items: center;
+        height: 6vh;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .courseSuitable{
+        padding-left: 2rem;
+    }
+    .courseSuitable li{
+        line-height: 2.3rem;
+    }
+    .courseSuitable ul{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 1rem;
+    }
+    .courseSuitable h2{
+        font-size: larger;
+    }
+    .courseTagWrapper{
+        padding-left: 2rem;
+    }
+    .courseTags {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        margin-bottom: 2rem;
+    }
+    .courseTags button{
+        border: 0.1px solid  rgb(207, 207, 207);
+        border-radius: 6px;
+        width: max-content;
+        height: 2.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: medium;
+        background-color: white;
+        cursor: pointer;
+    }
+    .courseTags button:hover{
+        border: 0.1px solid  rgb(68, 136, 173);
+        color: rgb(68, 136, 173);
+    }
+    .courseTags div{
+      display: flex;
+      gap: 1rem;
+    }
+}
