@@ -84,24 +84,24 @@ export const CourseDetails = () => {
                 <li>Email Setup (MX Record)</li>
               </ul>
               <ul>
-                <li>HTML</li>
-                <li>Tailwind</li>
-                <li>JQuery</li>
-                <li>NodeJS</li>
-                <li>Linux</li>
-                <li>Git</li>
-                <li>Hosting on CPanel</li>
-                <li>Email Setup (MX Record)</li>
+                <li>CSS</li>
+                <li>Sass</li>
+                <li>ReactJS + NextJS</li>
+                <li>MySQL</li>
+                <li>Nginx</li>
+                <li>Docker</li>
+                <li>SSL</li>
+                <li>Chrome Extension</li>
               </ul>
               <ul>
-                <li>HTML</li>
-                <li>Tailwind</li>
-                <li>JQuery</li>
-                <li>NodeJS</li>
-                <li>Linux</li>
-                <li>Git</li>
-                <li>Hosting on CPanel</li>
-                <li>Email Setup (MX Record)</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+                <li>PWA</li>
+                <li>MongoDB</li>
+                <li>Apache</li>
+                <li>AWS / GCP / Azure</li>
+                <li>Domain Setup (DNS)</li>
+                <li>Chat-GPT use in Coding</li>
               </ul>
             </div>
             <DropdownContents />
